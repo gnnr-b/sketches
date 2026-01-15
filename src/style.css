@@ -68,7 +68,7 @@ body{
   width:100%;
   max-width:680px;
 }
-.card img{display:block;width:100%;height:auto;object-fit:contain;vertical-align:middle}
+.card img{display:block;width:auto;max-width:100%;height:auto;object-fit:contain;vertical-align:middle}
 .card figcaption{
   position:absolute;
   left:0;right:0;bottom:0;
