@@ -68,7 +68,7 @@ body{
   width:100%;
   max-width:680px;
 }
-.card img{display:block;width:100%;height:auto;max-height:460px;object-fit:cover;vertical-align:middle}
+.card img{display:block;width:100%;height:auto;object-fit:contain;vertical-align:middle}
 .card figcaption{
   position:absolute;
   left:0;right:0;bottom:0;
@@ -79,7 +79,7 @@ body{
 }
 
 @media (max-width:520px){
-  .card img{height:160px}
+  .card img{max-height:160px;height:auto}
 }
 
 /* small, subtle title over gallery */
